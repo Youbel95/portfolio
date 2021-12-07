@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "main": "src/index.js",
-  "homepage": "http://youcefB95.github.io/portfolio",
+  "homepage": "https://youcefB95.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,13 +13,13 @@
     "react-bootstrap": "^2.0.3",
     "react-dom": "^17.0.2",
     "react-download-link": "^2.3.0",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^5.2.1",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
