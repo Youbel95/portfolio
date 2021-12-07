@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "main": "src/index.js",
-  "homepage": "http://youcefB95.github.io/portfolio",
+  "homepage": "https://youcefB95.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
